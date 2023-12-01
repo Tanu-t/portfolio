@@ -1,0 +1,145 @@
+/* ......home-responsive...... */
+@media only screen and (max-width: 977px) {
+    .name {
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    .navlist {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .navlist li {
+        font-size: 25px;
+        flex-direction: column;
+        font-family: 'Jost', sans-serif;
+    }
+
+    .navbar {
+        transition: all 0.4s ease-out;
+        height: 430px;
+        flex-direction: column;
+    }
+
+    .rightnav {
+        margin: auto;
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        margin: 10px;
+        right: -1px;
+    }
+
+    .h-nav-resp {
+        height: 70px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+}
+
+/* .........about-responsive........ */
+
+@media only screen and (max-width: 1200px) {
+    .personal-details-main {
+        /* border: 2px solid green;  */
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .personal-details {
+        /* border: 2px solid green; */
+        width: 90%;
+    }
+}
+
+.personal-photo {
+    /* height: 250px; */
+    margin: auto;
+    width: 80%;
+}
+
+h3 {
+    padding-top: 40px;
+}
+
+@media only screen and (max-width: 760px) {
+    .personal-details {
+        flex-direction: column;
+    }
+
+    .personal-details-sec1 {
+        margin: auto;
+        width: 90%;
+    }
+
+    .personal-details-sec2 {
+        margin: auto;
+        width: 90%;
+    }
+
+    .personal-details-sec3 {
+        margin: auto;
+        width: 90%;
+    }
+}
+
+/* .......work....... */
+@media only screen and (max-width: 700px) {
+    .mywork-category {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    .para{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+/* .......Contact......... */
+@media only screen and (max-width: 850px) {
+    .contactmain {
+        flex-direction: column;
+    }
+
+    .contact {
+        /* border: 2px solid red; */
+        width: 90%;
+        margin: auto;
+    }
+
+    .contactform {
+        margin-top: 20px;
+        width: 100%;
+        /* margin: auto; */
+        /* padding: 50px 40px ; */
+        /* border: 2px solid yellowgreen; */
+    }
+
+    .input {
+        padding: 10px 10px;
+        width: 80%;
+        background-color: gray;
+        color: #fff;
+        border: none;
+        margin: 10px;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+}
