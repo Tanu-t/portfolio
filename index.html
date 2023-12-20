@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bai+Jamjuree:wght@500&family=Cinzel:wght@500&family=Gruppo&family=Jost&family=Karla:wght@700&family=Maven+Pro&family=Merriweather+Sans:wght@700;800&family=Montserrat:wght@300&family=Noto+Sans&family=Nunito&family=Poppins:wght@400;500&family=Quicksand:wght@400;500&family=Rubik&family=Sedgwick+Ave+Display&family=Source+Code+Pro:wght@300;400&family=Suravaram&family=Varela+Round&display=swap"
         rel="stylesheet">
@@ -20,7 +21,9 @@
 <body>
     <section class="header">
         <nav class="navbar background h-nav-resp" id="#home">
-            <div class="name">Port<span style="color:#4070F4;">folio</span></div>
+            <div class="name" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">Port<span style="color:#4070F4;">folio</span></div>
             <ul class="navlist v-class-resp">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -52,14 +55,16 @@
     </section>
 
     <!-- .............about-section............ -->
-    <section class="about" id="about">
+    <section class="about" id="about" data-aos="fade-right"
+    data-aos-duration="1000">
         <div class="aboutheading">About</div>
         <div class="heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat itaque, aliquid odio
             expedita nihil necessitatibus. Veniam adipisci nobis quo explicabo similique error nesciunt laborum
             provident dignissimos alias! Molestias minima quae ipsa, temporibus accusamus, error dolores saepe deserunt
             nulla, quod aliquid?</div>
     </section>
-    <section class="personal-details-main">
+    <section class="personal-details-main" data-aos="zoom-out-right"
+    data-aos-duration="1000">
        
             <!--?xml version="1.0" standalone="no"?-->              <svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1">                    <defs>                        
                  <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">                         
@@ -78,7 +83,8 @@
             <g>     
                 </svg>
 
-        <div class="personal-details">
+        <div class="personal-details" data-aos="zoom-out-left"
+        data-aos-duration="1000">
             <div class="personal-details-sec1">
                 <h2 onclick="skill();">Skill</h2>
                 <ul class="skill">
@@ -109,21 +115,21 @@
         </div>
         <div class="mywork-category">
 
-            <div class="work1"><img src="image/weather-image.webp">
+            <div class="work1" data-aos="zoom-in"><img src="image/weather-image.webp">
                 <div class="layer">
                     <h3>Weather App</h3>
                     <p class="para">This project contain all information about Weather of different cities</p>
                     <a href="https://tanu-t.github.io/WeatherApp/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
-            <div class="work1"><img src="image/arrow.webp">
+            <div class="work1" data-aos="zoom-in"><img src="image/arrow.webp">
                 <div class="layer">
                     <h3>Image-Slider</h3>
                     <p class="para">This project show slide of images using JavaScript</p>
                     <a href="https://tanu-t.github.io/slider/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
-            <div class="work1"><img src="image/lab-image.webp">
+            <div class="work1" data-aos="zoom-in"><img src="image/lab-image.webp">
                 <div class="layer">
                     <h3>Labscon Website</h3>
                     <p class="para">This project contain all information about lab information.
@@ -135,7 +141,7 @@
         </div>
         <div class="mywork-category">
 
-        <div class="work1"><img src="image/clock.webp">
+        <div class="work1" data-aos="zoom-in"><img src="image/clock.webp">
             <div class="layer">
                 <h3>Analog Clock</h3>
                 <p class="para">This project contain all information about time with seconds.</p>
@@ -143,7 +149,7 @@
             </div>
         </div>
        
-        <div class="work1"><img src="image/FAQ's.webp">
+        <div class="work1" data-aos="zoom-in"><img src="image/FAQ's.webp">
             <div class="layer">
                 <h3>FAQ's</h3>
                 <p class="para">Frequently asked questions</p>
@@ -151,7 +157,7 @@
             </div>
         </div>
         
-        <div class="work1"><img src="image/snake.webp">
+        <div class="work1" data-aos="zoom-in"><img src="image/snake.webp">
             <div class="layer">
                 <h3>Snake Water and Gun GAME</h3>
                 <p class="para">JUST for fun.</p>
@@ -162,7 +168,9 @@
         </div>
     </section>
     <section class="contactmain" id="contact">
-        <div class="contact">
+        <div class="contact" data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-duration="1000">
             <span class="contactme text1" style="display:inline;">Contact Me</span>
             
                 <div class="itag"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i><span
@@ -178,7 +186,9 @@
             <div class="itag"><a href="image/Tanu_resume.pdf" download class="btn">Download Resume</a></div>
         </div>
        
-        <div class="contactform">
+        <div class="contactform" data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-duration="1000">
             <form name="myform" onsubmit="return form();">
            <div><input type="text" placeholder="Your Name" class="input" name="Name"></div>
            <div><input type="text" placeholder="Your Email" class="input" name="email"></div>
@@ -189,6 +199,9 @@
   
     </section>
     <script src="portResp.js"></script>
+     <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
