@@ -15,7 +15,7 @@ const textload =()=>{
 text.textContent="web-Designing..";
   },0);
   setTimeout(() =>{
-text.textContent="web-Developement..";
+text.textContent="web-Developement";
   },4000);
 
 }
