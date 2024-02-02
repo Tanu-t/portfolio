@@ -52,7 +52,7 @@ if(feedback==null || feedback=="")
 
 
 const toggle = document.querySelector('.toggle');
-const item = document.querySelectorAll('.name,.homemain,.navlist li a,.container_para,.homemain,.contact .contactme,body,.rightnav a i,.about-text p,.text.sec-text,.box p,.box h3,.footer .box-container .box1 h3,.moon,.sun,.container_details h1,.container_details,.input,.input::placeholder,.box1,.footer,.itag2 a,.itag a,.itag,.itag2');
+const item = document.querySelectorAll('.name,.homemain,.navlist li a,.container_para,.homemain,.contact .contactme,body,.rightnav a i,.about-text p,.text.sec-text,.box p,.box h3,.footer .box-container .box1 h3,.moon,.sun,.container_details h1,.container_details,.input,.input::placeholder,.box1,.footer,.itag2 a,.itag a,.itag,.itag2,.line');
 
 
 
