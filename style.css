@@ -755,8 +755,8 @@ section {
         flex-direction: column;
     }
     .container_details{
-        width: 100%;
-       text-align: center;
+        width: 90%;
+
 
     }
     .container_details h1.active {
@@ -839,9 +839,7 @@ section {
         margin-bottom: 6rem;
     
     }
-    .resume{
-        text-align: center;
-    }
+
     /* .contact{
         grid-template-columns: 1fr;
      
