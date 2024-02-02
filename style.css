@@ -724,8 +724,8 @@ input::placeholder.active{
 section {
     padding: 60px 10% 50px;
 }
-    .name {
-        font-family: 'Varela Round', sans-serif;
+     .name {
+            padding: 10px 10px;
     }
     .homemain {
         padding: 4rem;
