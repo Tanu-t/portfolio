@@ -756,9 +756,11 @@ section {
     }
     .container_details{
         width: 90%;
-
-
     }
+     .container_details .text{
+        font-size: 1.5rem;
+    }
+    
     .container_details h1.active {
         color: #1a1a1a;
         font-size: 3rem;
