@@ -890,7 +890,7 @@ section {
     }
     .resume{
     font-size: 1.7rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
     .contact {
@@ -922,6 +922,9 @@ section {
         .footer .box-container {
             width: 100%;
         }
+    .footer .box-container .box1 h1{
+        font-size: 2rem;
+    }
     
     .footer .credit {
         padding-top: 3rem;
