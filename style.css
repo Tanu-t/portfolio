@@ -162,6 +162,7 @@ section{
 .container_para {
     margin: 2rem 0;
     font-size: 1.8rem;
+   
 }
 
 
@@ -170,7 +171,8 @@ section{
     color: #ccc;
     width: 45%;
 }
-.container_details .text {
+.container_details .text{
+    /* border: 2px solid red; */
     position: relative;
     font-size: 2.5rem;
 }
@@ -433,8 +435,7 @@ span {
     color: #fff;
     font-size: 4rem;
 }
-
-
+    
 .contactme.text1::before {
     content: "";
     position: absolute;
@@ -712,6 +713,10 @@ input::placeholder.active{
     .container_details h1{
         font-size: 3rem;
     }
+    .container_details .text{
+        font-size: 1.6rem;
+    }
+    
 
 .about {
     display: grid;
@@ -724,7 +729,7 @@ input::placeholder.active{
 section {
     padding: 60px 10% 50px;
 }
-     .name {
+    .name {
             padding: 10px 10px;
     }
     .homemain {
@@ -756,11 +761,8 @@ section {
     }
     .container_details{
         width: 90%;
+
     }
-     .container_details .text{
-        font-size: 1.5rem;
-    }
-    
     .container_details h1.active {
         color: #1a1a1a;
         font-size: 3rem;
@@ -779,6 +781,7 @@ section {
         margin: 10px;
         right: -1px;
     }
+
     .toggle{
         /* border: 2px solid red; */
         position: absolute;
@@ -786,13 +789,12 @@ section {
         padding: 10px 20px;
         font-size: 20px;
     }
-    
 
-    .h-nav-resp {
+    .h-nav-resp{
         height: 70px;
     }
 
-    .v-class-resp {
+    .v-class-resp{
         opacity: 0;
     }
     .home_blob{
@@ -841,7 +843,7 @@ section {
         margin-bottom: 6rem;
     
     }
-
+   
     /* .contact{
         grid-template-columns: 1fr;
      
@@ -888,24 +890,26 @@ section {
     }
 
     .contact {
-        width: 100%;
+        width: 90%;
         margin: auto;
-        height: 35rem;
+        height: 32rem;
     }
     .contactform {
-        margin-top: -30px;
+ 
         width: 100%;
     }
-
     .input {
-        padding: 10px 10px;
+        padding: 1.5rem;
         width: 100%;
-        background-color: gray;
+        background-color: hsl( 250 , 29%, 16%);
         color: #fff;
-        border: none;
-        margin: 10px 0;
-        border-radius: 4px;
-        font-size: 12px;
+        border: 1px solid #6f62f6;
+        margin: 1rem;
+        border-radius: .8rem;
+        font-size: 1.5rem;
+    }
+    .input:focus{
+        outline: 1.5px solid #6f62f6;
     }
 }
 
