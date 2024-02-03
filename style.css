@@ -471,7 +471,7 @@ color: #e9efff;
 
 .resume{
     font-size: 1.7rem;
-    margin-top: 6rem;
+    margin-top: 5rem;
 }
 
 .btn {
@@ -888,6 +888,10 @@ section {
         flex-direction: column;
 
     }
+    .resume{
+    font-size: 1.7rem;
+    margin-top: 3rem;
+}
 
     .contact {
         width: 90%;
