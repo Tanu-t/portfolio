@@ -12,10 +12,10 @@ burger.addEventListener('click',()=>{
 const text= document.querySelector('.sec-text');
 const textload =()=>{
   setTimeout(() =>{
-text.textContent="web-Designing..";
+text.textContent="website-Developement..";
   },0);
   setTimeout(() =>{
-text.textContent="website-Developement";
+text.textContent="Responsive-Design";
   },4000);
 
 }
