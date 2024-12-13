@@ -15,7 +15,7 @@ const textload =()=>{
 text.textContent="website-Developement..";
   },0);
   setTimeout(() =>{
-text.textContent="Responsive-Design";
+text.textContent="Responsive-Designing";
   },4000);
 
 }
